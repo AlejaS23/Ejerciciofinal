@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.contenedor{
+    width: 1200px;
+    background-color: #FFE1F7;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: #EEE2FA;
+    border-radius: 0 0 25px 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.bmenu{
+    padding-right: 35px;
+}
+a{
+    color: #FF66C4;
+    font-family: Abril Fatface, sans-serif;
+}
+a:hover{
+    opacity: 75%;
+    transition: 0.5s;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    margin-bottom: 32px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Abril Fatface,sans-serif;
+    color: #FF66C4;
+    margin-bottom: 20px;
+}
+h3{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ff68ac;
+}
+h2{
+    font-family:Abril Fatface, sans-serif;
+    color: #BB32FF;
+    font-size: 35px;
+    margin-top: 165px;
+    margin-left: 145px;
+}
+p{
+    margin-left: 145px;
+    margin-bottom:35px;
+    color: #d175ff;
+}
+.galeria{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.imagen{
+    margin: -3px;
+}
+img.render01{
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+a.volver{
+    display: block;
+    color: #d175ff;
+    text-align: center;
+    font-size: 30px;
+}
+article.sobre{
+    display: block;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+img.mifoto{
+    margin-top: 200px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2.sobre{
+    text-align: center;
+    font-size: 70px;
+    color: #ff68ac;
+
+}
+p.sobre{
+    color: #d175ff;
+    padding-bottom: 35px;
+    border-bottom: 4px solid #BB32FF;
+    width: 550px;
+}
+footer{
+    margin-top: 242px;
+    background-color: #EEE2FA;
+}
+p.pie{
+    padding: 25px;
+    text-align: center;
+    color: aliceblue;
+}
+div.redes{
+    width: 60px;
+    height: 250px;
+    background-color: #ff68ac;
+    position: fixed;
+    top: 255px;
+    left: 0px;
+    border-radius: 13px;
+
+}
+li{
+    list-style: none;
+    text-align: center;
+    padding: 4px;
+}
